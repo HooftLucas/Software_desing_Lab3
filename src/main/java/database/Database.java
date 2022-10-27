@@ -2,11 +2,13 @@ package database;
 
 import employee.Employee;
 import register_entry.RegisterEntry;
+import java.util.Observable;
 
-public abstract class Database
+public abstract class Database extends Observable
 {
     public Database()
     {
+
 
     }
 
